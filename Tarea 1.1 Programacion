@@ -1,0 +1,21 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese los 3 numeros"
+	Leer a
+	Leer b
+	Leer c
+	Si a>b Entonces
+		Si a>c Entonces
+			Escribir "El mayor es:" a
+		Fin Si
+	Fin Si
+	Si b>a Entonces
+		Si b>c Entonces
+			Escribir "El mayor es:" b
+		Fin Si
+	Fin Si
+	Si c>a Entonces
+		Si c>b Entonces
+			Escribir "El mayor es:" c
+		Fin Si
+	Fin Si
+FinAlgoritmo
